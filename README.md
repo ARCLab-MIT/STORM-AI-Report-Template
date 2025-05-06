@@ -1,6 +1,5 @@
-# README for Storm AI Technical Report Template
+# Storm AI Technical Report Template
 
----
 
 ## Overview  
 This repository provides a LaTeX template (`storm-ai_report.cls`) and example driver (`main.tex`) for preparing Phase 2 technical reports in the Storm AI Challenge. It includes predefined boxes for title, authors, abstract, participants, scoring equations, and a structured report outline.
