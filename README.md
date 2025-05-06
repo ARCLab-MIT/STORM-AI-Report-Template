@@ -18,15 +18,27 @@ This repository provides a LaTeX template (`storm-ai_report.cls`) and example dr
 - Standard LaTeX packages: `xcolor`, `hyperref`, `fontawesome`, etc.
 
 ## Getting Started  
+1. **Clone or use this template repository**
+   - Click the "Use this template" button on GitHub to create your own repository based on this template
+   - Alternatively, you can clone the repository directly using:
+     ```
+     git clone https://github.com/ARCLab-MIT/STORM-AI-Report-Template.git
+     ```
+   - **Import to Overleaf**: 
+     - Go to [Overleaf](https://www.overleaf.com/)
+     - Click "New Project" → "Import from GitHub"
+     - Connect your GitHub account if prompted
+     - Select this repository from the list
+
 2. **Edit the driver** (`main.tex`)  
    - Update `\headerbox{== Title ==}`  
    - Set `\authordate{== Team ==}{<Date>}`  
-   - Fill in the `participantbox` with your team’s members  
+   - Fill in the `participantbox` with your team's members  
    - Replace placeholder text in `\abstractbox{Abstract}{…}`  
    - Customize or remove example sections as needed  
 
    👉 **Use [Overleaf](https://www.overleaf.com/)** to edit and compile this report. No local setup is needed or supported.  
-   ✅ **Set the compiler to "LuaLaTeX"** under Overleaf’s **Project Settings**.
+   ✅ **Set the compiler to "LuaLaTeX"** under Overleaf's **Project Settings**.
    
 3. **Compile to PDF**  
    On Overleaf, simply click **Recompile**. Make sure **LuaLaTeX** is selected as the compiler.
