@@ -4,19 +4,6 @@
 ## Overview  
 This repository provides a LaTeX template (`storm-ai_report.cls`) and example driver (`main.tex`) for preparing Phase 2 technical reports in the Storm AI Challenge. It includes predefined boxes for title, authors, abstract, participants, scoring equations, and a structured report outline.
 
-## Features  
-- **Custom class** (`storm-ai_report`) optimized for A4, 11 pt  
-- **Participant box** environment with `\speaker{…}{…}`  
-- **Header** and **abstract** boxes  
-- **Preformatted scoring scheme** (Phase I & II metrics)  
-- **Report template** sections (Introduction, Data, Methods, Results, etc.)  
-- Bibliography support via `biblatex`
-
-## Prerequisites  
-- TeX distribution (TeX Live, MiKTeX, etc.)  
-- `biblatex` and Biber  
-- Standard LaTeX packages: `xcolor`, `hyperref`, `fontawesome`, etc.
-
 ## Getting Started  
 1. **Clone or use this template repository**
    - Click the "Use this template" button on GitHub to create your own repository based on this template
@@ -29,6 +16,7 @@ This repository provides a LaTeX template (`storm-ai_report.cls`) and example dr
      - Click "New Project" → "Import from GitHub"
      - Connect your GitHub account if prompted
      - Select this repository from the list
+     - Select LuaLaTex as the compiler in the side menu.
 
 2. **Edit the driver** (`main.tex`)  
    - Update `\headerbox{== Title ==}`  
