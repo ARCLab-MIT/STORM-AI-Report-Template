@@ -32,11 +32,12 @@ This repository provides a LaTeX template (`storm-ai_report.cls`) and example dr
    On Overleaf, simply click **Recompile**. Make sure **LuaLaTeX** is selected as the compiler.
 ## Directory Structure
 ```
-├── storm-ai_report.cls     # Custom LaTeX class
-├── main.tex               # Example driver with placeholders
-├── references.bib         # BibTeX file for citations
-├── figures/               # (Optional) images and plots
-└── README.md              # This file
+├── storm-ai_report.cls            # Custom LaTeX class (not necessary to modify)
+├── main.tex                       # Example driver with placeholders
+├── references.bib                 # BibTeX file where you should add you citations
+├── STORM_AI_Report_Template.pdf   # Template rendered
+├── figures/                       # (Optional) images and plots you want to add
+└── README.md                      # This file
 ```
 ## Usage Tips  
 - **Deadline**: Phase 2 reports are due **May 26, 2025, at 23:59:59 EDT**  
