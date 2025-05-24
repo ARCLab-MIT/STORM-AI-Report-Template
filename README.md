@@ -43,7 +43,7 @@ This repository provides a LaTeX template (`storm-ai_report.cls`) and example dr
 - **Deadline**: Phase 2 reports are due **May 26, 2025, at 23:59:59 EDT**  
 - **Page limit**: Maximum **4 pages**, including figures but excluding references  
 - **Bibliography**: Add entries to `references.bib` and cite them using `\cite{...}`  
-- **Extending**: You may add custom sections or environments. However, if you remove the scoring equations, **you must include them in an appendix**.
+- **Extending**: You may add custom sections or environments.
 
 ---
 
